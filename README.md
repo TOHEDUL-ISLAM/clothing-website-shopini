@@ -68,8 +68,6 @@ src/
 
 ```
 
-Key references: App shell , routes , home sections , trending feed , detail page , auth screens & Firebase setup .
-
 ---
 
 ## 🚀 Getting Started
