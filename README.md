@@ -108,8 +108,6 @@ npm run preview
 
 This repo already initializes Firebase and exports `auth` and `db`. You can run it as-is with the included config, or move the keys to environment variables and import them in `firebase.jsx`.&#x20;
 
-> **Security note:** Lock down Firestore/Storage security rules for your project before production.
-
 ---
 
 ## 🌐 Fake API (GitHub-Hosted JSON)
@@ -160,15 +158,6 @@ Routes are declared in `src/components/routes.jsx`.&#x20;
 ```
 
 > If your `package.json` differs, use those script names instead.
-
----
-
-## ✅ Roadmap / Ideas
-
-* Move Firebase keys to `.env` and document them.
-* Add cart & checkout flow; persist cart in Firestore/localStorage.
-* Add categories, filters, and search suggestions.
-* Unit tests for API calls and auth flows.
 
 ---
 
